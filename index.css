@@ -1,0 +1,114 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eceff5;
+    color: #4c5765;
+    user-select: none;
+}
+
+.container {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#answer {
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.circle_container {
+    height: 140px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle {
+    height: 120px;
+    width: 120px;
+    margin: 0px;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.circle:hover {
+    margin: 5px;
+    height: 110px;
+    width: 110px;
+}
+
+.selected {
+    margin: 0px;
+    height: 110px;
+    width: 110px;
+    border: 10px solid #4c5765;
+}
+
+#cnt{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    cursor: ns-resize;
+}
+
+#btn_container{
+    position: absolute;
+    top: 100px;
+    right: 150px;
+}
+.btn {
+    width: 160px;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 15px;
+    border: 3px solid #4c5765;
+    cursor: pointer;
+    transition: border-radius 150ms ease-in-out;
+}
+
+.btn:hover {
+    border-radius: 0px;
+    background-color: #4c5765;
+    color: #eceff5;
+}
+
+#dat_container {
+    position: absolute;
+    bottom: 160px;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dat {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 70px;
+    text-align: center;
+    font-size: 40px;
+    text-align: center;
+    line-height: 70px;
+    border-bottom: 3px solid #4c5765;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
