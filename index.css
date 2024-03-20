@@ -51,20 +51,22 @@ body {
 
 .selected {
     margin: 0px;
-    border: 10px solid #4c5765;
+    height: 80px;
+    width: 80px;
+    border: 5px solid #4c5765;
 }
 
 #cnt{
     position: absolute;
-    top: 60px;
-    left: 80px;
+    top: 30px;
+    left: 50px;
     cursor: ns-resize;
 }
 
 #btn_container{
     position: absolute;
-    top: 60px;
-    right: 80px;
+    top: 30px;
+    right: 50px;
 }
 .btn {
     width: 110px;
