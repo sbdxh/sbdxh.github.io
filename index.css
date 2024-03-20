@@ -12,13 +12,13 @@ body {
 }
 
 .container {
-    width: 60%;
+    width: 70%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 #answer {
@@ -27,16 +27,16 @@ body {
 }
 
 .circle_container {
-    height: 140px;
-    width: 140px;
+    height: 110px;
+    width: 110px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .circle {
-    height: 120px;
-    width: 120px;
+    height: 90px;
+    width: 90px;
     margin: 0px;
     border-radius: 50%;
     display: inline-block;
@@ -45,40 +45,38 @@ body {
 
 .circle:hover {
     margin: 5px;
-    height: 110px;
-    width: 110px;
+    height: 80px;
+    width: 80px;
 }
 
 .selected {
     margin: 0px;
-    height: 110px;
-    width: 110px;
     border: 10px solid #4c5765;
 }
 
 #cnt{
     position: absolute;
-    top: 100px;
-    left: 150px;
+    top: 60px;
+    left: 80px;
     cursor: ns-resize;
 }
 
 #btn_container{
     position: absolute;
-    top: 100px;
-    right: 150px;
+    top: 60px;
+    right: 80px;
 }
 .btn {
-    width: 160px;
-    height: 80px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 40px;
+    width: 110px;
+    height: 50px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    font-size: 30px;
     letter-spacing: 5px;
     text-align: center;
-    line-height: 80px;
-    border-radius: 15px;
-    border: 3px solid #4c5765;
+    line-height: 50px;
+    border-radius: 12px;
+    border: 2px solid #4c5765;
     cursor: pointer;
     transition: border-radius 150ms ease-in-out;
 }
@@ -91,8 +89,8 @@ body {
 
 #dat_container {
     position: absolute;
-    bottom: 160px;
-    width: 20%;
+    bottom: 130px;
+    width: 15%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -100,14 +98,14 @@ body {
 }
 
 .dat {
-    padding-left: 20px;
-    padding-right: 20px;
-    height: 70px;
+    padding-left: 13px;
+    padding-right: 13px;
+    height: 50px;
     text-align: center;
-    font-size: 40px;
+    font-size: 27px;
     text-align: center;
-    line-height: 70px;
-    border-bottom: 3px solid #4c5765;
+    line-height: 50px;
+    border-bottom: 2px solid #4c5765;
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
